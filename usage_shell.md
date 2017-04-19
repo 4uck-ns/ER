@@ -4,4 +4,7 @@
 cat /proc/version
 
 ## pidof
-`pidof /usr/bin/* | xargs kill -9`
+pidof /usr/bin/* | xargs kill -9
+
+## netstat
+netstat -nat|grep -i "80"|wc -l
